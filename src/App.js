@@ -1,3 +1,4 @@
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -6,8 +7,7 @@ const App = () => {
     <>
     <Navbar />
     <Hero />
-    {/* <div className="h-screen bg-white dark:bg-black flex justify-center items-center">
-    </div> */}
+    <Features />
     </>
   );
 };

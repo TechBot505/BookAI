@@ -13,7 +13,7 @@ function Hero() {
             <p className="text-gray-600 text-center dark:text-gray-300 mt-8 text-lg leading-relaxed">
               Unleash the power of AI to create captivating books in minutes.
               Download, Distribute wherever you want. Generate unlimited free
-              Books.
+              Books
             </p>
           </div>
           <div className="mt-12 flex gap-x-6 gap-y-4 justify-center max-sm:flex-col">
@@ -36,7 +36,7 @@ function Hero() {
               will be used for text and image generation
             </p>
           </div>
-          <div className="max-w-6xl mx-auto bg-purple-900 bg-opacity-20 rounded-lg shadow-lg p-10 my-24 font-[sans-serif] overflow-visible">
+          <div className="max-w-6xl mx-auto bg-purple-900 bg-opacity-20 rounded-lg shadow-lg p-10 mt-24 font-[sans-serif] overflow-visible">
             <img
               src="https://raw.githubusercontent.com/adarshagupta/trybookai/main/book2.png"
               className="w-full rounded-lg hover:cursor-pointer hover:scale-105 transition"
