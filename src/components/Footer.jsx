@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer class="dark:bg-primary bg-[#0b0e37] py-8 px-6 font-sans tracking-wide">
+    <footer class="dark:bg-gradient-to-r from-start to-end bg-[#0b0e37] py-8 px-6 font-sans tracking-wide">
       <div class="flex flex-col items-center gap-2">
         <hr class="border-gray-500 w-full" />
         <div className="mt-4">
