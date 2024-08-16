@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode, faDownload, faLanguage, faFileText } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faDownload, faLanguage, faBook } from '@fortawesome/free-solid-svg-icons'
 
 function Features() {
   return (
@@ -9,7 +9,7 @@ function Features() {
         <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-x-8 gap-y-8">
           <div class="flex flex-col mx-auto items-center justify-center transition hover:-translate-y-3">
             <div class="w-16 h-16 bg-gradient-to-r from-purple-600 from-5% to-purple-900 to-70% flex items-center justify-center shrink-0 rounded-full">
-              <FontAwesomeIcon icon={faCode} color="white" />
+              <FontAwesomeIcon icon={faCode} color="white" size="xl" />
             </div>
             <div class="text-center mt-4">
               <p class="text-lg dark:text-white font-bold text-black">
@@ -22,7 +22,7 @@ function Features() {
           </div>
           <div class="flex flex-col mx-auto items-center justify-center transition hover:-translate-y-3">
             <div class="w-16 h-16 bg-gradient-to-r from-purple-600 from-5% to-purple-900 to-70% flex items-center justify-center shrink-0 rounded-full">
-            <FontAwesomeIcon icon={faFileText} color="white" />
+            <FontAwesomeIcon icon={faBook} color="white" size="xl" />
             </div>
             <div class="text-center mt-4">
               <p class="text-lg dark:text-white font-bold text-black">
@@ -35,7 +35,7 @@ function Features() {
           </div>
           <div class="flex flex-col mx-auto items-center justify-center transition hover:-translate-y-3">
             <div class="w-16 h-16 bg-gradient-to-r from-purple-600 from-5% to-purple-900 to-70% flex items-center justify-center shrink-0 rounded-full">
-            <FontAwesomeIcon icon={faDownload} color="white" />
+            <FontAwesomeIcon icon={faDownload} color="white" size="xl" />
             </div>
             <div class="text-center mt-4">
               <p class="text-lg dark:text-white font-bold text-black">
@@ -48,7 +48,7 @@ function Features() {
           </div>
           <div class="flex flex-col mx-auto items-center justify-center transition hover:-translate-y-3">
             <div class="w-16 h-16 bg-gradient-to-r from-purple-600 from-5% to-purple-900 to-70% flex items-center justify-center shrink-0 rounded-full">
-            <FontAwesomeIcon icon={faLanguage} color="white" />
+            <FontAwesomeIcon icon={faLanguage} color="white" size="xl" />
             </div>
             <div class="text-center mt-4">
               <p class="text-lg dark:text-white font-bold text-black">
