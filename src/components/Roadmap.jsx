@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
-function Working() {
+function Roadmap() {
   return (
     <div className="dark:bg-primary py-8">
       <div class="max-w-6xl bg-purple-950 bg-opacity-30 mx-auto pb-4 font-[sans-serif] rounded-xl">
         <h2 class="dark:text-white text-3xl font-bold text-center py-6">
-          How it Works
+          Roadmap
         </h2>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 max-md:max-w-lg mx-auto gap-12">
           <div class="p-4 flex gap-6 rounded-lg hover:shadow-md hover:scale-105 transition-all duration-300">
@@ -26,10 +26,10 @@ function Working() {
             </svg>
             <div>
               <h3 class="dark:text-white text-xl font-semibold mb-1">
-                Choose Your Genre
+              Advanced Character Development
               </h3>
               <p class="dark:text-gray-200 text-md">
-                Select from a wide range of genres or create a custom blend.
+              AI-powered tool for creating deep, complex characters.
               </p>
             </div>
           </div>
@@ -48,10 +48,10 @@ function Working() {
             </svg>
             <div>
               <h3 class="dark:text-white text-xl font-semibold mb-1">
-                Choose Your Genre
+              E-book Platform Integration
               </h3>
               <p class="dark:text-gray-200 text-md">
-                Select from a wide range of genres or create a custom blend.
+              Seamless publishing to popular e-book platforms.
               </p>
             </div>
           </div>
@@ -80,10 +80,10 @@ function Working() {
             </svg>
             <div>
               <h3 class="dark:text-white text-xl font-semibold mb-1">
-                Choose Your Genre
+              Collaborative Writing
               </h3>
               <p class="dark:text-gray-200 text-md">
-                Select from a wide range of genres or create a custom blend.
+              Co-create stories with other authors or AI assistants.
               </p>
             </div>
           </div>
@@ -126,17 +126,17 @@ function Working() {
             </svg>
             <div>
               <h3 class="dark:text-white text-xl font-semibold mb-1">
-                Choose Your Genre
+              AI Cover Art Generation
               </h3>
               <p class="dark:text-gray-200 text-md">
-                Select from a wide range of genres or create a custom blend.
+              Create stunning book covers with AI-generated art.
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Working;
+export default Roadmap
