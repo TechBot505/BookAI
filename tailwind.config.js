@@ -7,9 +7,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#1c0b2e'
+        primary: '#150925',
+        secondary: '#261537',
+        start: '#1B062E',
+        end: '#120A20',
       }
     },
   },
   plugins: [],
 }
+
+// 1B062E 150925 120A20

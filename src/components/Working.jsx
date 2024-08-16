@@ -2,8 +2,8 @@ import React from "react";
 
 function Working() {
   return (
-    <div className="dark:bg-primary py-8">
-      <div class="max-w-6xl bg-purple-950 bg-opacity-30 mx-auto pb-4 font-[sans-serif] rounded-xl">
+    <div className="dark:bg-gradient-to-r from-start to-end py-8">
+      <div class="max-w-6xl bg-secondary bg-opacity-70 mx-auto pb-4 font-[sans-serif] rounded-xl">
         <h2 class="dark:text-white text-3xl font-bold text-center py-6">
           How it Works
         </h2>
@@ -48,10 +48,10 @@ function Working() {
             </svg>
             <div>
               <h3 class="dark:text-white text-xl font-semibold mb-1">
-                Choose Your Genre
+              Provide Key Details
               </h3>
               <p class="dark:text-gray-200 text-md">
-                Select from a wide range of genres or create a custom blend.
+              Input main characters, plot points, or themes to guide the AI.
               </p>
             </div>
           </div>
@@ -80,10 +80,10 @@ function Working() {
             </svg>
             <div>
               <h3 class="dark:text-white text-xl font-semibold mb-1">
-                Choose Your Genre
+              AI Generation
               </h3>
               <p class="dark:text-gray-200 text-md">
-                Select from a wide range of genres or create a custom blend.
+              Our advanced AI creates your book based on your inputs.
               </p>
             </div>
           </div>
@@ -126,10 +126,10 @@ function Working() {
             </svg>
             <div>
               <h3 class="dark:text-white text-xl font-semibold mb-1">
-                Choose Your Genre
+              Review and Download
               </h3>
               <p class="dark:text-gray-200 text-md">
-                Select from a wide range of genres or create a custom blend.
+              Review your generated book and download in your preferred format.
               </p>
             </div>
           </div>
