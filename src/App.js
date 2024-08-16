@@ -1,6 +1,8 @@
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Newsletter from "./components/Newsletter";
 import Roadmap from "./components/Roadmap";
 import Samples from "./components/Samples";
 import Testimonials from "./components/Testimonials";
@@ -18,6 +20,8 @@ const App = () => {
     <Video />
     <Roadmap />
     <Testimonials />
+    <Newsletter />
+    <Footer />
     </>
   );
 };
