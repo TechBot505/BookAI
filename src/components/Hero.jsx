@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="font-sans py-20 dark:bg-gradient-to-r from-start to-end h-full">
+    <div className="font-sans py-16 pt-20 dark:bg-gradient-to-r from-start to-end h-full">
       <div className="text-center max-w-6xl max-md:max-w-md mx-auto">
         <div>
           <h2 className="text-gray-800 dark:text-white md:text-5xl text-4xl font-bold mb-4">
@@ -31,12 +31,12 @@ function Hero() {
             </button>
           </div>
           <div className="mx-auto mt-4">
-            <p className="dark:text-amber-200 text-amber-500 text-center my-6 text-md leading-relaxed">
+            <p className="dark:text-amber-200 text-purple-500 text-center my-6 text-md leading-relaxed">
               Attention: TryBookAI has been acquired by Indicus AI. Indicus LLM
               will be used for text and image generation
             </p>
           </div>
-          <div className="max-w-6xl mx-auto bg-secondary bg-opacity-70 rounded-lg shadow-lg p-10 mt-24 font-[sans-serif] overflow-visible">
+          <div className="max-w-6xl mx-auto bg-gradient-to-r from-purple-800 to-secondary dark:bg-secondary dark:bg-opacity-70 rounded-lg shadow-lg p-10 mt-24 font-[sans-serif] overflow-visible">
             <img
               src="https://raw.githubusercontent.com/adarshagupta/trybookai/main/book2.png"
               className="w-full rounded-lg hover:cursor-pointer hover:scale-105 transition"

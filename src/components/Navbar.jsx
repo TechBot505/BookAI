@@ -43,7 +43,7 @@ function Navbar() {
             class="sr-only peer"
             onClick={toggleTheme}
           />
-          <div class="relative w-14 h-7 bg-gray-200 rounded-full peer dark:bg-gray-300 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[4px] after:bg-white after:rounded-full after:h-6 after:w-6 after:transition-all dark:border-gray-600 peer-checked:bg-purple-500"></div>
+          <div class="relative w-14 h-7 bg-gray-200 rounded-full peer dark:bg-gray-300 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[4px] after:bg-white after:rounded-full after:h-6 after:w-6 after:transition-all dark:border-gray-600 peer-checked:bg-purple-700"></div>
         </label>
           <button
             type="button"
@@ -83,7 +83,7 @@ function Navbar() {
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-gray-50 dark:bg-primary dark:border-purple-700">
             <li>
               <a
-                href="/"
+                href="#features"
                 className="block py-2 px-3 md:p-0 rounded text-purple-700 dark:hover:text-purple-400 md:dark:text-gray-100"
                 aria-current="page"
               >
@@ -92,7 +92,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="/"
+                href="#working"
                 className="block py-2 px-3 md:p-0 rounded text-purple-700 dark:hover:text-purple-400 md:dark:text-gray-100"
                 aria-current="page"
               >
@@ -101,7 +101,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="/"
+                href="#roadmap"
                 className="block py-2 px-3 md:p-0 rounded text-purple-700 dark:hover:text-purple-400 md:dark:text-gray-100"
                 aria-current="page"
               >

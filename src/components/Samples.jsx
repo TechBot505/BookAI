@@ -18,7 +18,7 @@ function Samples() {
             <div className='flex items-center flex-col'>
             <h4 class="dark:text-white text-gray-800 font-bold text-lg">Science Fiction</h4>
             <p className='text-center dark:text-gray-400 font-md mb-2'>"As Dr. Elara stepped through the shimmering portal, she knew there was no turning back. The fate of two universes now rested in her hands..."</p>
-            <p className='cursor-pointer text-center dark:hover:text-white transition-all duration-300 dark:text-purple-700 font-md'>Read More</p>
+            <p className='cursor-pointer font-semibold text-center hover:text-purple-400 dark:hover:text-white transition-all duration-300 text-purple-700 font-md'>Read More</p>
             </div>
           </div>
 
@@ -29,7 +29,7 @@ function Samples() {
             <div className='flex items-center flex-col'>
             <h4 class="dark:text-white text-gray-800 font-bold text-lg">Mystery</h4>
             <p className='text-center dark:text-gray-400 font-md mb-2'>"The old lighthouse stood silent, its beacon long extinguished. But on foggy nights, some swore they could still see its ghostly light..."</p>
-            <p className='cursor-pointer text-center dark:hover:text-white transition-all duration-300 dark:text-purple-700 font-md'>Read More</p>
+            <p className='cursor-pointer font-semibold text-center hover:text-purple-400 dark:hover:text-white transition-all duration-300 text-purple-700 font-md'>Read More</p>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ function Samples() {
             <div className='flex items-center flex-col'>
             <h4 class="dark:text-white text-gray-800 font-bold text-lg">Fantasy</h4>
             <p className='text-center dark:text-gray-400 font-md mb-2'>"The ancient prophecy spoke of a child born with starlight in their eyes. As the comet blazed overhead, the kingdom held its breath..."</p>
-            <p className='cursor-pointer text-center dark:hover:text-white transition-all duration-300 dark:text-purple-700 font-md'>Read More</p>
+            <p className='cursor-pointer font-semibold text-center hover:text-purple-400 dark:hover:text-white transition-all duration-300 text-purple-700 font-md'>Read More</p>
             </div>
           </div>
         </div>

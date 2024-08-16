@@ -5,8 +5,8 @@ import { faCheckCircle, faCogs, faMagic, faPencilAlt } from "@fortawesome/free-s
 function Working() {
   return (
     <div className="dark:bg-gradient-to-r from-start to-end py-8">
-      <div class="max-w-6xl bg-secondary bg-opacity-70 mx-auto pb-4 font-[sans-serif] rounded-xl">
-        <h2 class="dark:text-white text-3xl font-bold text-center py-6">
+      <div id="working" class="max-w-6xl bg-gradient-to-r from-purple-800 to-secondary dark:bg-secondary dark:bg-opacity-70 mx-auto pb-4 font-[sans-serif] rounded-xl">
+        <h2 class="text-white text-3xl font-bold text-center py-6">
           How it Works
         </h2>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 max-md:max-w-lg mx-auto gap-12">
@@ -15,10 +15,10 @@ function Working() {
               <FontAwesomeIcon icon={faMagic} color="white" size="xl" />
             </div>
             <div>
-              <h3 class="dark:text-white text-xl font-semibold mb-1">
+              <h3 class="text-white text-xl font-semibold mb-1">
                 Choose Your Genre
               </h3>
-              <p class="dark:text-gray-200 text-md">
+              <p class="text-gray-200 text-md">
                 Select from a wide range of genres or create a custom blend.
               </p>
             </div>
@@ -29,10 +29,10 @@ function Working() {
               <FontAwesomeIcon icon={faPencilAlt} color="white" size="xl" />
             </div>
             <div>
-              <h3 class="dark:text-white text-xl font-semibold mb-1">
+              <h3 class="text-white text-xl font-semibold mb-1">
                 Provide Key Details
               </h3>
-              <p class="dark:text-gray-200 text-md">
+              <p class="text-gray-200 text-md">
                 Input main characters, plot points, or themes to guide the AI.
               </p>
             </div>
@@ -43,10 +43,10 @@ function Working() {
               <FontAwesomeIcon icon={faCogs} color="white" size="xl" />
             </div>
             <div>
-              <h3 class="dark:text-white text-xl font-semibold mb-1">
+              <h3 class="text-white text-xl font-semibold mb-1">
                 AI Generation
               </h3>
-              <p class="dark:text-gray-200 text-md">
+              <p class="text-gray-200 text-md">
                 Our advanced AI creates your book based on your inputs.
               </p>
             </div>
@@ -57,10 +57,10 @@ function Working() {
               <FontAwesomeIcon icon={faCheckCircle} color="white" size="xl" />
             </div>
             <div>
-              <h3 class="dark:text-white text-xl font-semibold mb-1">
+              <h3 class="text-white text-xl font-semibold mb-1">
                 Review and Download
               </h3>
-              <p class="dark:text-gray-200 text-md">
+              <p class="text-gray-200 text-md">
                 Review your generated book and download in your preferred
                 format.
               </p>

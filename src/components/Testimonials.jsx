@@ -11,14 +11,14 @@ function Testimonials() {
         </div>
 
         <div class="grid md:grid-cols-2 gap-6">
-          <div class="p-4 rounded-lg mx-auto dark:bg-secondary relative">
+          <div class="p-4 rounded-lg mx-auto bg-gray-100 dark:bg-secondary dark:bg-opacity-80 relative">
               <p class="text-gray-800 dark:text-gray-200 text-md leading-relaxed text-center">
               "BookAI revolutionized my writing process. I completed my debut novel in just two weeks!"
               </p>
               <p className="text-center dark:text-white font-bold text-md">- Sarah J., Author</p>
           </div>
 
-          <div class="p-4 rounded-lg mx-auto dark:bg-secondary relative">
+          <div class="p-4 rounded-lg mx-auto bg-gray-100 dark:bg-secondary dark:bg-opacity-80 relative">
               <p class="text-gray-800 dark:text-gray-200 text-lg leading-relaxed text-center">
               "The AI-generated ideas helped me overcome writer's block. It's like having a co-author at your fingertips."
               </p>

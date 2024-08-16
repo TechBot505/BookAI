@@ -4,9 +4,9 @@ import { faCode, faDownload, faLanguage, faBook } from '@fortawesome/free-solid-
 
 function Features() {
   return (
-    <div class="bg-white dark:bg-gradient-to-r from-start to-end py-4 pb-12 px-4 font-[sans-serif] text-[#333]">
+    <div class="bg-gray-100 dark:bg-gradient-to-r from-start to-end py-12 px-4 font-[sans-serif] text-[#333]">
       <div class="max-w-6xl mx-auto">
-        <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-x-8 gap-y-8">
+        <div id="features" class="grid md:grid-cols-4 sm:grid-cols-2 gap-x-8 gap-y-8">
           <div class="flex flex-col mx-auto items-center justify-center transition hover:-translate-y-3">
             <div class="w-16 h-16 bg-gradient-to-r from-purple-600 from-5% to-purple-900 to-70% flex items-center justify-center shrink-0 rounded-full">
               <FontAwesomeIcon icon={faCode} color="white" size="xl" />

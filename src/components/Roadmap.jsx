@@ -4,9 +4,9 @@ import { faPaintBrush, faStore, faUserCircle, faUsers } from '@fortawesome/free-
 
 function Roadmap() {
   return (
-    <div className="dark:bg-gradient-to-r from-start to-end py-8">
-      <div class="max-w-6xl bg-purple-950 bg-opacity-30 mx-auto pb-4 font-[sans-serif] rounded-xl">
-        <h2 class="dark:text-white text-3xl font-bold text-center py-6">
+    <div className="bg-gray-100 dark:bg-gradient-to-r from-start to-end py-8">
+      <div id='roadmap' class="max-w-6xl bg-gradient-to-r from-purple-800 to-secondary dark:bg-secondary dark:bg-opacity-80 mx-auto pb-4 font-[sans-serif] rounded-xl">
+        <h2 class="text-white text-3xl font-bold text-center py-6">
           Roadmap
         </h2>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 max-md:max-w-lg mx-auto gap-12">
@@ -15,10 +15,10 @@ function Roadmap() {
               <FontAwesomeIcon icon={faUserCircle} color="white" size="xl" />
             </div>
             <div>
-              <h3 class="dark:text-white text-xl font-semibold mb-1">
+              <h3 class="text-white text-xl font-semibold mb-1">
               Advanced Character Development
               </h3>
-              <p class="dark:text-gray-200 text-md">
+              <p class="text-gray-200 text-md">
               AI-powered tool for creating deep, complex characters.
               </p>
             </div>
@@ -29,10 +29,10 @@ function Roadmap() {
               <FontAwesomeIcon icon={faStore} color="white" size="xl" />
             </div>
             <div>
-              <h3 class="dark:text-white text-xl font-semibold mb-1">
+              <h3 class="text-white text-xl font-semibold mb-1">
               E-book Platform Integration
               </h3>
-              <p class="dark:text-gray-200 text-md">
+              <p class="text-gray-200 text-md">
               Seamless publishing to popular e-book platforms.
               </p>
             </div>
@@ -43,10 +43,10 @@ function Roadmap() {
               <FontAwesomeIcon icon={faUsers} color="white" size="xl" />
             </div>
             <div>
-              <h3 class="dark:text-white text-xl font-semibold mb-1">
+              <h3 class="text-white text-xl font-semibold mb-1">
               Collaborative Writing
               </h3>
-              <p class="dark:text-gray-200 text-md">
+              <p class="text-gray-200 text-md">
               Co-create stories with other authors or AI assistants.
               </p>
             </div>
@@ -57,10 +57,10 @@ function Roadmap() {
               <FontAwesomeIcon icon={faPaintBrush} color="white" size="xl" />
             </div>
             <div>
-              <h3 class="dark:text-white text-xl font-semibold mb-1">
+              <h3 class="text-white text-xl font-semibold mb-1">
               AI Cover Art Generation
               </h3>
-              <p class="dark:text-gray-200 text-md">
+              <p class="text-gray-200 text-md">
               Create stunning book covers with AI-generated art.
               </p>
             </div>

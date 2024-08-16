@@ -2,13 +2,13 @@ import React from "react";
 
 function Newsletter() {
   return (
-    <div className="dark:bg-gradient-to-r from-start to-end flex justify-center items-center py-12">
-      <div class="flex rounded-xl dark:bg-secondary py-8 px-6 font-[sans-serif]">
+    <div className="bg-gray-100 dark:bg-gradient-to-r from-start to-end flex justify-center items-center py-12">
+      <div class="flex rounded-xl dark:bg-secondary dark:bg-opacity-80 py-8 px-6 font-[sans-serif]">
         <div class="max-w-6xl mx-auto text-center">
-          <h2 class="text-3xl font-bold mb-6 text-white">
+          <h2 class="text-3xl font-bold mb-6 dark:text-white">
             Stay Updated
           </h2>
-          <p class="text-base text-gray-300">
+          <p class="dark:text-gray-300 text-gray-900">
           Subscribe to our newsletter for the latest AI writing tips and BookAI updates.
           </p>
           <div class="mt-12 flex items-center overflow-hidden bg-gray-50 rounded-md max-w-xl mx-auto">
